@@ -1,45 +1,58 @@
 {
-  "cardID":"",
-  "title":"",
-  "atts":{
-    "type":"card",
-    "role":"facto|attachment",
-    "author":{
-      "userID":"1234",
-      "userName":"username",
-      "userEmail":"email"
+    "cardID": "",
+    "title": "",
+    "atts": {
+        "type": "card",
+        "role": "facto|attachment",
+        "author": {
+            "userID": "1234",
+            "userName": "username",
+            "userEmail": "email"
+        },
+        "edits": [
+            {
+                "editID": "2345",
+                "createdAt": "date",
+                "userID": "1234",
+                "userName": "username",
+                "userEmail": "email",
+                "commit": "commit",
+                "prevContent": {}
+            }
+        ],
+        "createdAt": {},
+        "lastModifiedAt": {}
     },
-    "edits":[
+    "content": {
+        "type": "html|photo|video",
+        "body": "based on type can be the src of the file or HTML code of the content"
+    },
+    "sources": [
         {
-          "editID":"2345",
-          "createdAt":"date",
-          "userID":"1234",
-          "userName":"username",
-          "userEmail":"email",
-          "commit":"commit",
-          "prevContent":{}
+            "caption": "source caption - the main title of the source page or video or for example a Wiki page title",
+            "title": "the source title it self for example Wiki",
+            "href": "the url"
         }
-      ],
-    "createdAt":{},
-    "lastModifiedAt":{}
-  },
-  "content":{
-    "type":"html|photo|video",
-    "body":"based on type can be the src of the file or HTML code of the content"
-  },
-  "sources":[
-    {
-      "caption":"source caption - the main title of the source page or video or for example a Wiki page title",
-      "title":"the source title it self for example Wiki",
-      "href":"the url"
-    }
-  ],
-  "links":[
-    {
-      "title":"link title",
-      "href":"link href",
-      "tag":["link","tags"]
-    }
-  ],
-  "tags":["tags","of","the","card"]
+    ],
+    "links": [
+        {
+            "title": "link title",
+            "href": "link href",
+            "tag": [
+                "link",
+                "tags"
+            ]
+        }
+    ],
+    "tags": [
+        "tags",
+        "of",
+        "the",
+        "card"
+    ],
+    "attachments": [
+        "234",
+        "452",
+        "2324"
+    ]
 }
