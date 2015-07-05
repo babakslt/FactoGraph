@@ -37,7 +37,7 @@
     "links": [
         {
             "title": "link title",
-            "href": "link href",
+            "id": "linked card ID",
             "tag": [
                 "link",
                 "tags"
