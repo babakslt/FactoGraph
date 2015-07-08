@@ -1,0 +1,889 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"request"
+			],
+			[
+				"main",
+				"main-el"
+			],
+			[
+				"art",
+				"artworks"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"a",
+				"attachment_id"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"fi",
+				"first	.first()"
+			],
+			[
+				"all",
+				"all2"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"mouse",
+				"mouseover	.mouseover()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"cs",
+				"css	.css() - single"
+			],
+			[
+				"remo",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"prin",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "return json.dumps({'html':'<span>Enter the required fields</span>'})",
+			"file": "/home/slt/python/first/FlaskApp/app.py",
+			"file_size": 921,
+			"file_write_time": 130805836694687208,
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nimport struct\n\n\ndef main():\n	src = \"data.txt\"\n	fi = open(src, \"r\")\n	print \"file opend\"\n	fo = open(\"data-out.txt\",\"w\")\n\n	for line in fi:\n		dp = int(float(line))\n		fp = float(line)-dp\n\n		bdp = bin(dp)\n		bfp = fp.hex()\n		out =  str(dp) + \" . \" + str(fp)[2:]\n		outb = str(bin(dp)) + \" . \" + str(fp)\n		\n		print(out,outb)\n		print \"\"\n		#fo.write(out)\n\n\n	fi.close()\n	fo.close()\n\ndef binary(num):\n    return ''.join(\n    	bin(\n    		ord(c)\n    		)\n    	.replace('0b', '')\n    	.rjust(8, '0')\n    	for c in \n    	struct.pack('!f', num)\n    )\n\nprint binary(3.4)",
+			"file": "/home/slt/Mostafa-sheykh/dec2bin.py",
+			"file_size": 551,
+			"file_write_time": 130806712347960483,
+			"settings":
+			{
+				"buffer_size": 551,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/slt/Mostafa-sheykh/data.txt",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix",
+				"name": "5"
+			}
+		},
+		{
+			"file": "/home/slt/Mostafa-sheykh/data-out.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/slt/python/first/FlaskApp/static/js/jquery.2.1.4.js",
+			"settings":
+			{
+				"buffer_size": 84345,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/slt/python/first/FlaskApp/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 2265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/slt/python/first/FlaskApp/templates/signup.html",
+			"settings":
+			{
+				"buffer_size": 2286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/slt/python/first/FlaskApp/static/signup.css",
+			"settings":
+			{
+				"buffer_size": 767,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 264.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"css ",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/slt/python/first/FlaskApp",
+		"/home/slt/python/first/FlaskApp/static",
+		"/home/slt/python/first/FlaskApp/static/js",
+		"/home/slt/python/first/FlaskApp/templates"
+	],
+	"file_history":
+	[
+		"/home/slt/Mostafa-sheykh/data-out.txt",
+		"/home/slt/python/first/FlaskApp/data-out.txt",
+		"/home/slt/Downloads/jquery-2.1.4.min.js",
+		"/home/slt/python/first/FlaskApp/index.html",
+		"/home/slt/Desktop/telegram-water/telebot-master/app.yaml",
+		"/home/slt/www/GP/starter/scripts/app.js",
+		"/home/slt/www/GP/starter/elements/routing.html",
+		"/home/slt/www/page.js/examples/chrome/index.html",
+		"/home/slt/www/GP/starter/newelements/components/contact-form/contact-form.html",
+		"/home/slt/www/GP/starter/elements/my-list/my-list.html",
+		"/home/slt/www/GP/starter/elements/my-greeting/my-greeting.html",
+		"/home/slt/www/GP/starter/elements/elements.html",
+		"/home/slt/www/GP/starter/elements/contact-form/contact-form.html",
+		"/home/slt/www/GP/starter/index.html",
+		"/home/slt/www/ghazal/polymer-starter-kit-1.0.2/app/elements/routing.html",
+		"/home/slt/www/ghazal/polymer-starter-kit-1.0.2/app/index.html",
+		"/home/slt/www/ghazal/elements/configurable-name-tag.html",
+		"/home/slt/www/ghazal/imports.html",
+		"/home/slt/www/ghazal/index.html",
+		"/home/slt/www/ghazal/elements/single-photo.html",
+		"/home/slt/www/ghazal/single-photo.html",
+		"/home/slt/www/ghazal/configurable-name-tag.html",
+		"/var/www/html/gbm/wp-content/themes/gbm/content-link.php",
+		"/var/www/html/gbm/wp-content/plugins/wp-jquery-lightbox/styles/lightbox.min.css",
+		"/var/www/html/gbm/wp-content/themes/gbm/js/slick.js",
+		"/var/www/html/gbm/wp-content/themes/gbm/css/slick.css",
+		"/var/www/html/gbm/style-old",
+		"/var/www/html/gbm/wp-config.php",
+		"/var/www/html/gbm/wp-content/themes/gbm/functions.php",
+		"/var/www/html/gbm/wp-content/plugins/widgetize-navigation-menu/css/widgetize_menu_frontend_style.css",
+		"/var/www/html/gbm/wp-content/themes/gbm/style.css",
+		"/var/www/html/gbm/wp-content/themes/gbm/widgets.php",
+		"/var/www/html/gbm/defines.php",
+		"/var/www/html/gbm/wp-content/themes/gbm/front-page.php",
+		"/var/www/html/gbm/wp-content/themes/gbm/func2.php",
+		"/var/www/html/gbm/grid.css",
+		"/var/www/html/gbm/wp-content/themes/html5blank-stable/functions.php",
+		"/var/www/html/gbm/func2.php",
+		"/var/www/html/gbm/wp-content/themes/html5blank-stable/header.php",
+		"/var/www/html/gbm/wp-content/themes/html5blank-stable/style.css",
+		"/var/www/html/gbm/wp-content/themes/html5blank-stable/footer.php",
+		"/var/www/html/gbm/wp-content/themes/twentyfifteen/style.css",
+		"/home/slt/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/slt/www/Avrang/twentythirteen/medoo.php",
+		"/home/slt/www/Guilphys/style.css",
+		"/home/slt/www/Guilphys/functions.php",
+		"/home/slt/www/Guilphys/single.php",
+		"/home/slt/www/Guilphys/rtl.css",
+		"/home/slt/www/Guilphys/style2.css",
+		"/home/slt/www/Guilphys/func2.php",
+		"/home/slt/www/Guilphys/front-page.php",
+		"/home/slt/www/Guilphys/category.php",
+		"/home/slt/www/Guilphys/event.php",
+		"/home/slt/www/Guilphys/frontpage.php",
+		"/home/slt/www/Avrang/twentythirteen/footer.php",
+		"/home/slt/www/Avrang/twentythirteen/ver2.css",
+		"/home/slt/www/Avrang/twentythirteen/v2thewizard.php",
+		"/home/slt/www/Avrang/twentythirteen/funcP3.php",
+		"/home/slt/www/UAVDrone.ir/homeslide.html",
+		"/home/slt/www/UAVDrone.ir/reveal.js",
+		"/home/slt/www/UAVDrone.ir/homeslide.css",
+		"/home/slt/www/UAVDrone.ir/front-page.php",
+		"/home/slt/www/UAVDrone.ir/.htaccess",
+		"/home/slt/Downloads/slides-deck-1.html",
+		"/home/slt/www/UAVDrone.ir/style.css",
+		"/home/slt/www/UAVDrone.ir/index-slide.html",
+		"/home/slt/www/UAVDrone.ir/functions.php",
+		"/home/slt/www/UAVDrone.ir/css/homeslide.css",
+		"/home/slt/www/UAVDrone.ir/footer.php",
+		"/home/slt/www/UAVDrone.ir/functions.js",
+		"/home/slt/www/UAVDrone.ir/function.php",
+		"/home/slt/www/UAVDrone.ir/page.php",
+		"/home/slt/www/UAVDrone.ir/single.php",
+		"/home/slt/www/UAVDrone.ir/category.php",
+		"/home/slt/www/UAVDrone.ir/func2.php",
+		"/home/slt/www/UAVDrone.ir/style2.css",
+		"/home/slt/www/UAVDrone.ir/header.php",
+		"/home/slt/www/UAVDrone.ir/sftp-config.json",
+		"/var/www/uavdrone/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/slt/www/GP/starter/",
+			"/home/slt/www/ghazal/polymer-starter-kit-1.0.2",
+			"/var/www/html/gbm/wp-content/themes/gbm",
+			"/var/www/html/gbm/wp-content/themes/twentyfifteen",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			":{",
+			":\"",
+			"hoverg",
+			"hover",
+			":hover",
+			"hover",
+			"category",
+			"routh-path",
+			"</iron-ico",
+			"icon",
+			"html\">",
+			"span",
+			"span class=\"flex style-scope cart-item\"",
+			"<cart-item class=\"style-scope app-cart x-scope cart-item-0\">",
+			"<span class=\"flex style-scope cart-item\">",
+			"custom",
+			"items",
+			"}",
+			"{",
+			"\"title\": ",
+			"waterfall",
+			"'",
+			"<a clas",
+			"<p style",
+			"}",
+			"works-list",
+			"section",
+			"module",
+			"usr",
+			"user",
+			"WebComponentsReady",
+			"href=\"/",
+			"href",
+			"app.route",
+			"route",
+			"\">",
+			"<section data-ro",
+			"button",
+			"gold-email-input",
+			"paper-button",
+			"button",
+			"toolbar",
+			"paper-input",
+			"input",
+			"gold-email-input",
+			"import",
+			"polymer",
+			"polymer.html",
+			"polymer-element",
+			"contact",
+			"tall",
+			"users",
+			"Users",
+			"users",
+			" <paper-tab>",
+			"-tab>",
+			"paper",
+			"styles",
+			"users",
+			"user",
+			"users",
+			"albums",
+			"user-info",
+			"href",
+			"paper",
+			"<td class=\"name style-scope element-table\" width=\"100\">",
+			"class=\"name style-scope element-table\" width=\"10",
+			"}}",
+			"{{",
+			"list",
+			"t\"\n",
+			"k fr",
+			"fr",
+			"pd3 w100 h100",
+			"style=\"height:100p",
+			"csm16",
+			"><img",
+			"href",
+			"/a>",
+			"<img ",
+			"class",
+			"class=\"align",
+			"sponserlink",
+			"width",
+			"width=\"299\" height=\"300\"",
+			"/></a>",
+			"><img ",
+			"<a hr",
+			"<td>",
+			"/gbm/",
+			"class=\"entry-header\"",
+			"<h1 class=\"entry-title\">",
+			"entry-title",
+			"archive_desc darkgreen fs2_5",
+			"jqu",
+			"staredposts",
+			"ma; ",
+			"16",
+			"ma; \">",
+			"ma; ",
+			"font",
+			"style=\"font-family: Tahoma; font",
+			"style=\"font-family: Tahoma; f",
+			"میعاد",
+			"style=\"font-family: Tahoma; font-size: large;\">",
+			"style=\"font-family: Tahoma; font-size: large;\"",
+			"footer",
+			"ray(\"nam",
+			"owl",
+			"staredposts .item",
+			"> .it",
+			"bottom",
+			"center",
+			",",
+			"genericon",
+			"{width:",
+			"%}.",
+			"%}.cs26",
+			".cs",
+			"cs26",
+			"cs",
+			"site-main",
+			"article",
+			"width",
+			"cs",
+			"scHomepage",
+			"owl-carousel/",
+			"<?php echo get_template_directory() ?>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"focus",
+			"active",
+			"",
+			"font-family: \"yekan\";,",
+			"font-family: irsans,",
+			"irsans"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/slt/python/first/FlaskApp/app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/slt/Mostafa-sheykh/dec2bin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								477
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/slt/Mostafa-sheykh/data.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"auto_name": "5",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/slt/Mostafa-sheykh/data-out.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/slt/python/first/FlaskApp/static/js/jquery.2.1.4.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84345,
+								84345
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/slt/python/first/FlaskApp/templates/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/slt/python/first/FlaskApp/templates/signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1991,
+								1991
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/slt/python/first/FlaskApp/static/signup.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "flask.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
